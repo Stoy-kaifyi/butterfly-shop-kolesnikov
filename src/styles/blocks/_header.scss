@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 16px 0;
+  color:$color-light;
+  background-color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+    padding: 20px 0;
+  }
+}
+
+.header-inner {
+  @include inner;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  @include logo;
+  margin-right: auto;
+}
+
+
+.burger {
+  display: none;
+  width: 30px;
+  height: 30px;
+
+
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
+}

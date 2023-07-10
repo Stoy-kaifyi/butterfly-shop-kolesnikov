@@ -1,0 +1,27 @@
+.social {
+  display: flex;
+  margin-left: 45px;
+  list-style: none;
+  align-items: center;
+
+  @media (max-width: $tablet-max) {
+    margin-left: 35px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin: 15px 0 0;
+  }
+}
+
+.social-item {
+  margin-left: 15px;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

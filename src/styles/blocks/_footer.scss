@@ -1,0 +1,45 @@
+.footer {
+  padding: 31px 0;
+  background-color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+    padding: 35px 0px;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 30px 35px;
+  }
+}
+
+.footer-inner {
+  @include inner;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+.footer-logo {
+  @include logo;
+  margin-right: auto;
+
+  @media (max-width: $mobile-max) {
+    margin: 0 0 30px;
+  }
+}
+
+.footer-phone {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: $color-light;
+  text-decoration: none;
+}
