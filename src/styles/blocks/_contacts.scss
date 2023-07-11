@@ -1,0 +1,17 @@
+.contacts-inner {
+  @include inner;
+}
+
+.contacts-title {
+  @include section-title;
+  padding-top: 130px;
+}
+
+.contacts-item {
+  display: none;
+  padding-bottom: 590px;
+
+  &.active {
+    display: block;
+  }
+}

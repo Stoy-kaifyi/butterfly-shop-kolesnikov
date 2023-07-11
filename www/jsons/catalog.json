@@ -1,0 +1,40 @@
+{
+  "catalog": [
+    {
+      "number": "5",
+      "text": "Бабочка такая",
+      "imgUrl": "imgs/butterfly5.jpg",
+      "imgAlt": "Бабочка"
+    },
+    {
+      "number": "6",
+      "text": "Бабочка этакая",
+      "imgUrl": "imgs/butterfly6.jpg",
+      "imgAlt": "Бабочка"
+    },
+    {
+      "number": "7",
+      "text": "Бабочка растакая",
+      "imgUrl": "imgs/butterfly7.jpg",
+      "imgAlt": "Бабочка"
+    },
+    {
+      "number": "8",
+      "text": "Бабочка вот такая",
+      "imgUrl": "imgs/butterfly8.jpg",
+      "imgAlt": "Бабочка"
+    },
+    {
+      "number": "9",
+      "text": "Бабочка даже такая",
+      "imgUrl": "imgs/butterfly9.jpg",
+      "imgAlt": "Бабочка"
+    },
+    {
+      "number": "10",
+      "text": "Бабочка смотри какая",
+      "imgUrl": "imgs/butterfly10.jpg",
+      "imgAlt": "Бабочка"
+    }
+  ]
+}

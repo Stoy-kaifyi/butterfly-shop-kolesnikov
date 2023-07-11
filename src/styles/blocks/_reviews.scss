@@ -1,0 +1,49 @@
+.review {
+  padding: 130px 0;
+  background-color: #fff;
+}
+
+.review-inner {
+  @include inner;
+}
+
+.review-title {
+  @include section-title;
+}
+
+.carousel {
+  margin-top: 80px;
+}
+
+.carousel-row {
+  display: flex;
+}
+
+.carousel-visual {
+  flex-basis: 50%;
+  padding-right: 12px;
+}
+
+.carousel-text {
+  flex-basis: 50%;
+  padding-left: 12px;
+  text-align: left;
+
+  h3 {
+    font-size: 48px;
+    font-weight: 400;
+    color: $color-dark;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    color: $color-dark;
+    margin-top: 40px;
+  }
+}
+
+
+.carousel-ava {
+ max-width: 100%;
+}

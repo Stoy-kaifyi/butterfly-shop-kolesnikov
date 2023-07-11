@@ -1,0 +1,13 @@
+.faq {
+  padding: 130px 0 90px;
+  background-color: rgba(51,51,51, .1);
+}
+
+.faq-inner{
+  @include inner;
+}
+
+.faq-title {
+  @include section-title;
+  margin-bottom: 80px;
+}
